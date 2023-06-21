@@ -1,0 +1,154 @@
+body{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+}
+*{
+    margin: 0;
+    top: 0;
+} 
+
+/* --- scroll bar --- */
+
+ ::-webkit-scrollbar{
+	width: 10px;
+	background: white;
+	}
+
+::-webkit-scrollbar-track{
+	background: #0000002e;
+	}
+
+::-webkit-scrollbar-thumb{
+	background: rgb(37 37 37 / 57%);
+	border-radius: 5px;
+	}
+
+
+
+
+
+/* --- boite presentation ---  */
+
+main .box {
+  width: auto;
+  margin-top: 15px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  display: flex;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+
+
+/* ---NAVBAR--- et ---HEADER--- */
+
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 5px 20px 0px #00000061;
+  position: fixed;
+  width: 100%;
+}
+
+
+#Logo {
+transition: all 0.2s ease;
+max-width: 70px;
+border-radius: 5px;
+display: flex;
+}
+
+#Logo:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #00000000;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+
+}
+
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: o;
+  margin-block-start: 1px;
+  margin-block-end: 1px;
+  margin-inline-start: 0px;
+  margin-inline-end: 40px;
+  padding-inline-start: 40px;
+}
+
+li {
+  margin-right: 5px;
+  
+}
+
+li:last-child {
+  margin-left: 0;
+}
+
+#ul_liens li a:hover {
+transform: scale(1.1);
+transition: all 0.2s ease;
+display: inline-block;
+}
+
+a {
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    
+}
+
+
+nav a:hover {
+    background: rgba(221, 221, 221, 0.366);
+    color: rgb(255, 255, 255);
+}
+
+
+/* image arriere plan */
+
+.hero-section {
+    background-image: url(https://www.mrestaurant.fr/public/img/big/copyrightJulietteTreillet1927jpg_61446781283cb.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    margin-top: 0px;
+    max-width: 100%;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    color: #fff;
+    margin-top: 200px;
+    margin-left: 10%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section h2 {
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 10%;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+} 
+

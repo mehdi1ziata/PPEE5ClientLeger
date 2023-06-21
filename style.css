@@ -1,0 +1,636 @@
+body{
+    background-color: #ebebeb;
+    height: auto;
+    /* bottom: 0; */
+}
+*{
+    margin: 0;
+    top: 0;
+} 
+
+/* --- scroll bar --- */
+
+ ::-webkit-scrollbar{
+	width: 10px;
+	background: white;
+	}
+
+::-webkit-scrollbar-track{
+	background: #0000002e;
+	}
+
+::-webkit-scrollbar-thumb{
+	background: rgb(37 37 37 / 57%);
+	border-radius: 5px;
+	}
+
+
+
+
+
+/* --- boite presentation ---  */
+
+main .box {
+  width: auto;
+  background-color: #e2e2e2;
+  margin-left: 35vh;
+  margin-right: 35vh;
+  margin-top: 60px;
+  margin-bottom: 10vh;
+  padding: 40px;
+  transition: transform 0.4s ease;
+  font-family: sans-serif;
+  font-size: large;
+  color: #202124;
+}
+
+
+
+  main .box2 {
+    width: auto;
+    background-color: #e2e2e2;
+    margin-left: 35vh;
+    margin-right: 35vh;
+    margin-top: 60px;
+    margin-bottom: 10vh;
+    padding: 40px;
+    transition: transform 0.4s ease;
+    font-family: sans-serif;
+    font-size: large;
+    color: #202124;
+}
+
+
+
+.services-styles {
+  margin-right: 2vh;
+  margin-bottom: 2vh;
+  padding: 2vh;
+  background-color: #656565;
+  color: white;
+  border-radius: 1vh;
+  text-align: center;
+  animation-duration: 1s;
+  width: 45%;
+  max-width: 300px;
+}
+
+.services-styles:hover{
+  transform: scale(1.05);
+  transition: .3s;
+  position: relative;
+}
+
+.serivces-rangée1, .serivces-rangée2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+
+/* ---NAVBAR--- et ---HEADER--- */
+
+header {
+  background-color: rgb(0 0 0 / 0%);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0px 5px 20px 0px #00000061;
+  position: fixed;
+  width: 100%;
+  position: absolute, fixed;
+}
+
+
+#Logo {
+  width: 10vh;
+  align-items: center;
+  padding: 10px;
+ }
+
+#Logo:hover {
+  transform: scale(1.05);
+  color: white;
+}
+
+nav {
+
+  display: inline-flex;
+  position: absolute;
+  margin-left: 75vh;
+} 
+
+header{
+  z-index: 999;
+  height: 6vh;
+  box-shadow: 0px 9px 20px 0px #1b1b1b73;
+  background: #000000d6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow:hidden;
+  padding: 2vh;
+  }
+
+
+  ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+ul li a {
+  display: block;
+  /* padding: 20px; */
+}
+
+.ul_liens {
+  display: inline-flex;
+  align-items: center;
+  list-style-type: none;
+  padding-right: 4vh;
+}
+
+
+
+nav li {
+  margin-left: 0%;
+  margin-right: 5px;
+}
+
+li:last-child {
+  margin-left: 0;
+}
+
+.ul_liens li a:hover {
+transform: scale(1.18);
+transition: all 0.2s ease;
+display: inline-block;
+background-color: #92929218;
+}
+
+a {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+
+
+/* image arriere plan */
+
+.background_image {
+
+background-position: bottom;
+
+background-size: cover;
+
+height: 100vh;
+
+margin-top: 0px;
+
+width: 1101vh;
+
+max-width: 100%;
+
+filter: brightness(0.5);
+
+position: relative;
+
+z-index: -5;
+
+object-fit: cover;
+
+border-radius: -9px;
+}
+
+.section_h1 {
+
+color: #fff;
+
+transform: translate(10vh, 20vh);
+
+font-family: sans-serif;
+
+position: relative;
+
+font-size: xxx-large;
+
+font-weight: bold;
+
+
+position: absolute;
+}
+
+.content{
+  padding: 0px;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes fadeIn {
+	to {
+		opacity: 1;
+	}
+}
+
+
+.hr_bt{
+  padding: 2px;
+  background-color: white;
+  max-width: 430px;
+}
+
+.hero-section h2 {
+    font-size: 29PX;
+    color: #fff;
+    transform: translate(10vh, 27vh);
+    font-family: sans-serif;
+    position: absolute;
+    max-width: 50%;
+} 
+
+
+.PRESENTATION_h3{
+  font-size: xxx-large;
+  color: #3f3f3f;
+}
+
+.PRESENTATION_HR1{
+  width: 7vh;
+  padding: 2px;
+  background-color: #3f3f3f;
+  border: white;
+  border-radius: 5px;
+}
+
+.PRESENTATION_HR2{
+  width: 20%;
+  transform: translateX(-15%);
+  padding: 3px;
+  background-color: #3f3f3f00;
+  border: white;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+/* petit texte 'faites defiler ' */
+
+@keyframes jump
+{
+  
+	0%
+	{
+		transform: translateY(0) scale(2.5);
+	}
+
+	50%
+	{
+		transform: translateY(-20px) scale(2.5);
+	}
+
+	100%
+	{
+		transform: translateY(0) scale(2.5);
+	}
+
+}
+
+
+
+
+.scroll-down.disappear {
+  
+  animation: disappear 1s forwards;
+  animation-delay: 0s;
+}
+
+.scroll-down {
+  color: white;
+  font-size: larger;
+  position: absolute;
+  transform: scale(2.5);
+  left: 50%;
+  top: 90%;
+  font-family: sans-serif;
+  animation: jump 0.8s linear 3;
+}
+
+.scroll-down:hover {
+  transform: scale(3.5);
+	transition: transform 0.4s ease;
+}
+
+
+
+
+
+                              /* login.css */
+
+
+
+.container {
+  text-align: center;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 20vh;
+  padding: 5px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid 1px white;
+  border-radius: 5px;
+  background: white;
+}
+
+.btnInscription {
+  /* width: 150px; */
+  padding: 10px;
+  border: 1px solid #9d98b200;
+  border-radius: 1px;
+  background-color: #007acc;
+  color: white;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+
+.btns {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+
+
+                                            /* footer */
+
+/* --footer-- */
+
+footer {
+  background-color: #202124;
+  padding: 5px;
+  color: white;
+  border-radius: 2px;
+  font-family: sans-serif;
+}
+
+#footer_logo {
+  transition: all 0.2s ease;
+  max-width: 70px;
+  border-radius: 5px;
+  display: flex;
+  }
+  
+  #footer_logo:hover {
+    transform: scale(1.15);
+    color: white;
+  }
+
+#footer_p{
+  padding: 10px;
+  position: relative;
+}
+
+.nav-footer{
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+.footer_logo{
+  max-width : 70px;
+  padding: 15px;
+}
+#footer_p p:nth-child(1) {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: large;
+  text-decoration: underline;
+}
+
+#footer_h2{
+  color: white;
+  padding: 10px;
+  max-width: 50%;
+  margin-bottom: 10px;
+  text-decoration: underline;
+}
+
+
+/* footer-nav_bar */
+
+
+ol {
+  transform: translateX(50vh);
+  cursor: pointer;
+  display: inline-flex;
+  list-style-type: none;
+  padding: 0;
+  margin-block-start: 1px;
+  text-decoration: underline;
+  font-size: small;
+}
+
+.nav-footer ol li {
+  position: relative;
+}
+
+.nav-footer ol li a {
+  color: white;
+  /* margin: 10px; */
+}
+
+/* FORMULAIRE NEWSLETTER */
+
+form {
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.newsletter_form{
+  margin-left: 10px;
+}
+
+form label {
+  font-size: medium;
+  margin-bottom: 10px;
+}
+
+#email_bouton{
+  padding: 10px;
+}
+  
+#email_bouton:hover {
+  background-color: #d8eef8;
+  color: #9b9b9b;
+
+}
+
+form input[type=email] {
+  width: 20%;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+form input[type=submit] {
+  background-color: #007acc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+
+
+                              /* style inscription */
+
+
+
+
+h1 {
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Rubik Glitch', cursive;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  text-align: center;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 417px;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: solid 1px cyan;
+  border-radius: 15px;
+  /* box-shadow: 13px 11px 12px #0000; */
+  background: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.btns {
+  text-align: center;
+  display: flex;
+  justify-content: center; 
+  margin-top: 30px;
+}
+
+.btnInscription {
+  width: 150px;
+  padding: 15px;
+  border: 1px solid cyan;
+  border-radius: 3px;
+}
+
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit button */
+.registerbtn {
+  background-color:royalblue;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+}
+
+
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html
+{
+	scroll-behavior: smooth;
+	scroll-padding-top: 25vh;
+}
+
+@media only screen and (max-width: 1400px)
+{
+ 
+
+  main.box{ 
+    margin-left: 0vh;
+    margin-right: 0vh;
+    margin-top: 60px;
+  }
+}
+
